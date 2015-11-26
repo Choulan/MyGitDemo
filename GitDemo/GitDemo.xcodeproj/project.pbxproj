@@ -15,7 +15,11 @@
 		95D360EB1C073E44008E55E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D360E91C073E44008E55E2 /* LaunchScreen.storyboard */; };
 		95D360F61C073E44008E55E2 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D360F51C073E44008E55E2 /* GitDemoTests.m */; };
 		95D361011C073E44008E55E2 /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D361001C073E44008E55E2 /* GitDemoUITests.m */; };
+
 		95D361181C074BDE008E55E2 /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D361171C074BDE008E55E2 /* ViewControllerB.m */; settings = {ASSET_TAGS = (); }; };
+
+		95D361111C074239008E55E2 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D361101C074239008E55E2 /* ViewControllerA.m */; settings = {ASSET_TAGS = (); }; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +56,13 @@
 		95D360FC1C073E44008E55E2 /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D361001C073E44008E55E2 /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		95D361021C073E44008E55E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
 		95D361161C074BDE008E55E2 /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
 		95D361171C074BDE008E55E2 /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
+
+		95D3610F1C074239008E55E2 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		95D361101C074239008E55E2 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,7 @@
 		95D360DA1C073E44008E55E2 /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				95D3610E1C0741FF008E55E2 /* A */,
 				95D360DE1C073E44008E55E2 /* AppDelegate.h */,
 				95D360DF1C073E44008E55E2 /* AppDelegate.m */,
 				95D360E11C073E44008E55E2 /* ViewController.h */,
@@ -143,6 +153,15 @@
 				95D361021C073E44008E55E2 /* Info.plist */,
 			);
 			path = GitDemoUITests;
+			sourceTree = "<group>";
+		};
+		95D3610E1C0741FF008E55E2 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				95D3610F1C074239008E55E2 /* ViewControllerA.h */,
+				95D361101C074239008E55E2 /* ViewControllerA.m */,
+			);
+			name = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D361111C074239008E55E2 /* ViewControllerA.m in Sources */,
 				95D360E31C073E44008E55E2 /* ViewController.m in Sources */,
 				95D361181C074BDE008E55E2 /* ViewControllerB.m in Sources */,
 				95D360E01C073E44008E55E2 /* AppDelegate.m in Sources */,
